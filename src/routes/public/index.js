@@ -1,8 +1,5 @@
-const express = require('express')
-const router = express.Router()
-const expressJwt = require('express-jwt')
-
-const config = require('../../../Config')[process.env.NODE_ENV || 'development']
+const express = require('express');
+const router = express.Router();
 
 const matchDataRoute = require('./matchDataRoute');
 
