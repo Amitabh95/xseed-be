@@ -5,7 +5,5 @@ module.exports = {
         websiteName: '*'
     },
     production: {
-        // database: 'mongodb+srv://milon-app-access:utCyhygCNgs2MusB@milon-library-db-ltwei.mongodb.net/milanLibraryProd?retryWrites=true&w=majority',
-        // websiteName: '*'
     }
 };

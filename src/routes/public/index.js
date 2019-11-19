@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
 
 //MatchData Route
 router.get('/singlematchdata/:id', matchDataRoute.getSingleMatchData);
-router.get('/matchdatabyyear', matchDataRoute.getMatchDataByYear);
+router.post('/matchdatabyyear', matchDataRoute.getMatchDataByYear);
 router.get('/allmatchdata', matchDataRoute.getAllMatchData);
 
 module.exports = router;
